@@ -20,7 +20,7 @@ public void executeRowSetDemo() throws SQLException, ClassNotFoundException {
         //Giving the query to execute
         jrs.setCommand("SELECT * FROM Employee where Name=?");
         //Setting the name of which it have to return
-        jrs.setString(1, "Sahithi");
+        jrs.setString(1, "John");
         //Calling the execute method
         jrs.execute();
         //Printing the values of the specified name
